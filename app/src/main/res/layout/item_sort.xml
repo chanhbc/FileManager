@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_corners_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Sắp xếp"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbSortName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_item"
+            android:drawablePadding="50dip"
+            android:padding="16dp"
+            android:paddingLeft="50dip"
+            android:text="Sắp xếp theo tên"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbSortSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_item"
+            android:padding="16dip"
+            android:text="Sắp xếp theo kích thước"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbSortDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_item_properties"
+            android:padding="16dp"
+            android:text="Sắp xếp theo ngày"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbSortType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_item_properties"
+            android:padding="16dp"
+            android:text="Sắp xếp loại"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+</LinearLayout>

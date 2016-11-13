@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_corners_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvAddFolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_option"
+        android:padding="16dp"
+        android:text="Thêm thư mới"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tvSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_item"
+        android:padding="16dp"
+        android:text="Sắp xếp"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvPaste2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_item_properties"
+        android:padding="16dp"
+        android:text="Dán"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</LinearLayout>
